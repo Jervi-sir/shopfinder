@@ -64,6 +64,8 @@ header {
     }
     button {
       background-color: transparent;
+      border: none;
+
     }
   }
   .item-list {
@@ -80,9 +82,6 @@ header {
         align-items: center;
         padding: 10px 16px ;
         .shop-pic {
-          img {
-
-          }
         }
         .details {
           display: flex;
@@ -106,6 +105,7 @@ header {
         .location {
           margin-left: auto;
           background-color: transparent;
+          border: none;
         }
       }
       .preview {
@@ -124,7 +124,7 @@ header {
           padding: 20px 0;
           padding-right: 7px;
           gap: 10px;
-
+          
           .slider {
             display: inline-block;
             width: 4px;
@@ -183,6 +183,7 @@ header {
         padding: 7px 20px;
         button {
           background-color: transparent;
+          border: none;
         }
       }
     }
